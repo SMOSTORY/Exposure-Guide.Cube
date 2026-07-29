@@ -591,7 +591,7 @@ export default function App() {
             
             <div className="p-6 overflow-y-auto flex flex-col gap-5 text-[15px] leading-relaxed text-neutral-600 dark:text-neutral-300">
               <p>
-                This application helps you generate false color exposure LUTs for professional cinema cameras.
+                This application helps you generate false color exposure LUTs for professional video cameras.
               </p>
               
               <div className="bg-blue-50 dark:bg-blue-500/10 p-4 rounded-2xl border border-blue-100 dark:border-blue-500/20">
