@@ -1,5 +1,7 @@
 # Exposure-Guide.Cube
 
+👉 **[Try the web app live here!](https://ais-pre-u7sgpngl3khu3hz6sueceh-453509959117.asia-southeast1.run.app)**
+
 Exposure-Guide.Cube is a web-based application designed to generate false color exposure LUTs for professional cinema cameras (including Sony, Panasonic, Canon, ARRI, RED, and Blackmagic). 
 
 It allows you to map specific exposure ranges (either in camera Stops or IRE scale) to custom colors, helping you precisely monitor exposure and white balance at the same time on set or in post-production. The tool outputs a standard `.cube` file which can be loaded directly into your monitor or editing software.
