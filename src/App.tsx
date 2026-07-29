@@ -498,7 +498,7 @@ export default function App() {
         <div className="flex items-center gap-4">
           <button
             onClick={() => setShowDocumentation(true)}
-            className="text-[13px] font-medium text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors hidden sm:block"
+            className="text-[13px] font-medium text-neutral-500 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors hidden sm:block cursor-pointer"
           >
             Documentation
           </button>
