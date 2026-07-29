@@ -603,12 +603,30 @@ export default function App() {
                 </p>
               </div>
 
+              <div className="bg-blue-50 dark:bg-blue-500/10 p-4 rounded-2xl border border-blue-100 dark:border-blue-500/20">
+                <p className="font-semibold text-blue-900 dark:text-blue-300 mb-2 flex items-center gap-2">
+                  <Info className="w-4 h-4" /> How to use it?
+                </p>
+                <p className="text-[14px]">
+                  Want to learn how to load these LUTs on your camera (Sony, Panasonic) or editing software?
+                </p>
+                <a
+                  href="https://github.com/SMOSTORY/Exposure-Guide.Cube#how-to-use-the-lut-cube-file"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 mt-3 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-[13px] font-semibold transition-colors cursor-pointer"
+                >
+                  Click here for more information
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+
               <div className="flex flex-col gap-3">
                 <a 
                   href="https://github.com/SMOSTORY/Exposure-Guide.Cube" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group"
+                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group cursor-pointer"
                 >
                   <div className="flex flex-col">
                     <span className="font-semibold text-neutral-900 dark:text-neutral-100">This UI Repository</span>
@@ -621,7 +639,7 @@ export default function App() {
                   href="https://github.com/Today20092/lut_builder" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group"
+                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group cursor-pointer"
                 >
                   <div className="flex flex-col">
                     <span className="font-semibold text-neutral-900 dark:text-neutral-100">Original Core Script</span>
@@ -634,7 +652,7 @@ export default function App() {
                   href="https://www.youtube.com/watch?v=fwnOEfC48HU" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group"
+                  className="flex items-center justify-between p-3 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-neutral-300 dark:hover:border-neutral-700 hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors group cursor-pointer"
                 >
                   <div className="flex flex-col">
                     <span className="font-semibold text-neutral-900 dark:text-neutral-100">YouTube Video</span>
