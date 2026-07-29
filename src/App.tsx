@@ -614,9 +614,9 @@ export default function App() {
                   href="https://github.com/SMOSTORY/Exposure-Guide.Cube#how-to-use-the-lut-cube-file"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 mt-3 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-[13px] font-semibold transition-colors cursor-pointer"
+                  className="inline-flex items-center gap-2 mt-3 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-xl text-[13px] font-semibold transition-colors cursor-pointer w-fit"
                 >
-                  Click here for more information
+                  Read Documentation
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
