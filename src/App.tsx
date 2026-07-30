@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Download, Plus, Trash2, Code, Palette, Sun, Moon, Monitor, Info, CheckCircle2, SlidersHorizontal, Camera, AlertCircle, ChevronDown, ArrowRight, ArrowLeft, X, ExternalLink } from 'lucide-react';
 import { Profile, Target, BandMode, Band, LutSetup } from './types';
 import { generateCubeLut } from './utils';
+import { AppIcon } from './components/AppIcon';
 
 const PROFILES: Profile[] = [
   'Sony S-Log3',
@@ -486,8 +487,8 @@ export default function App() {
       {/* Header */}
       <header className="px-6 py-3 sm:py-4 flex items-center justify-between relative z-10 w-full max-w-5xl mx-auto border-b border-neutral-200/50 dark:border-neutral-800/50">
         <div className="flex items-center gap-3">
-          <div className="bg-blue-500 text-white p-2 rounded-xl shadow-md shadow-blue-500/30">
-            <Palette className="w-5 h-5" />
+          <div className="text-neutral-900 dark:text-white flex items-center justify-center">
+            <AppIcon className="w-9 h-9" />
           </div>
           <div className="flex flex-col">
             <h1 className="text-[17px] font-display font-bold tracking-tight leading-tight">Exposure-Guide.Cube</h1>
