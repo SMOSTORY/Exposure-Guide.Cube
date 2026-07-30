@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="public/icon-light.svg#gh-light-mode-only" width="128" alt="Exposure-Guide.Cube Logo" />
   <img src="public/icon-dark.svg#gh-dark-mode-only" width="128" alt="Exposure-Guide.Cube Logo" />
 </p>
