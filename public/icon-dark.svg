@@ -1,0 +1,13 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Button on left -->
+  <path d="M56 80 L56 68 C56 63.5817 59.5817 60 64 60 L76 60 C80.4183 60 84 63.5817 84 68 L84 80" stroke="#fafafa" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  
+  <!-- Camera Body -->
+  <path d="M72 80 L92 80 L100 64 L156 64 L164 80 L184 80 C206.091 80 224 97.9086 224 120 L224 192 C224 214.091 206.091 232 184 232 L72 232 C49.9086 232 32 214.091 32 192 L32 120 C32 97.9086 49.9086 80 72 80 Z" stroke="#fafafa" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  
+  <!-- Orange Circle -->
+  <circle cx="128" cy="148" r="48" stroke="#FF7A00" stroke-width="14"/>
+  
+  <!-- Asterisk -->
+  <path d="M128 116 L128 180 M96 148 L160 148 M105.372 125.372 L150.627 170.627 M105.372 170.627 L150.627 125.372" stroke="#FF7A00" stroke-width="12" stroke-linecap="round"/>
+</svg>

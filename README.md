@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="public/icon-light.svg#gh-light-mode-only" width="128" alt="Exposure-Guide.Cube Logo" />
+  <img src="public/icon-dark.svg#gh-dark-mode-only" width="128" alt="Exposure-Guide.Cube Logo" />
+</p>
+
 # Exposure-Guide.Cube
 
 👉 **[Open the web app here](https://exposure-guide-cube.ai.studio)**
